@@ -1,0 +1,28 @@
+
+.scrollSpyDiv{
+    position: relative;
+    height: 100%;
+    overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+a.active{
+  background-color: rgb(33, 152, 207);
+  border-radius: 4px;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+@media screen and (max-width: 767px) {
+  .card{
+    margin-top: 8px;
+  }
+}

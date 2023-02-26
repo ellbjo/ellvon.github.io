@@ -1,0 +1,48 @@
+{
+  "courses" : [
+
+    {
+      "name" : "Matte",
+      "school": "Sundsvall Gymnasium",
+      "location": "Sundsvall",
+      "img": "/assets/img/Calculator.png"
+    },
+    {
+      "name" : "Fysik",
+      "school": "Sundsvall Gymnasium",
+      "location": "Sundsvall",
+      "img": "/assets/img/fysik.png"
+    },
+    {
+      "name" : "Spanska",
+      "school": "Sundsvall Gymnasium",
+      "location": "Sundsvall",
+      "img": "/assets/img/spansk.png"
+    },
+    {
+      "name": "Grundläggande Programmering",
+      "school": "Luleå Universitet",
+      "location": "Luleå",
+      "img" : "/assets/img/lulea.png"
+    }
+    
+  ],
+  "jobs" : [
+
+    {
+      "jobTitle" : "Waitress",
+      "employer" : "Hudiksvalls värdshus",
+      "img": "/assets/img/Resturant.png"
+    },
+    {
+      "jobTitle" : "Cashier",
+      "employer" : "Ica",
+      "img": "/assets/img/Ica.png"
+    },
+    {
+      "jobTitle" : "Production",
+      "employer" : "PSIDAC AB",
+      "img": "/assets/img/psidac.png"
+    }
+  ]
+}
