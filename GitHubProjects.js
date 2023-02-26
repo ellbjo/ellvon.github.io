@@ -12,13 +12,16 @@ const GitHubProjects = ({ repo }) => {
       );
       const data = await response.json();
 
-      setTimeout(() => {
-        //Simulate 3 second loading
-        console.log(data);
-        setProjects(data);
-        setLoading(false);
-      }, "3000")
+      //setTimeout(() => {
+      //  //Simulate 3 second loading
+      // console.log(data);
+      //  setProjects(data);
+      //  setLoading(false);
+      //}, "3000")
       
+      console.log(data);
+      setProjects(data);
+      setLoading(false);
     };
     fetchProjects();
   }, [repo]);
